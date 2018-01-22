@@ -7,11 +7,11 @@ Home automation source code, requires PlatformIO.
 ##### Gateway:
 ```sh
 $ cd gateway-serial
-$ pio run -t=upload
+$ pio run --target=upload
 ```
 
 ##### Node:
 ```sh
 $ cd light-sensor
-$ pio run -t=upload
+$ pio run --target=upload
 ```
